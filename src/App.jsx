@@ -18,7 +18,7 @@ function App() {
     }
     // 어떠한 태그든지, onClick이라는 속성을 사용할 수 있고
     // 말 그대로 "이 태그가 클릭되는 순간" 집어넣은 함수가 실행됨
-   return<botton onClick={addcount}>지금 현재 count state의 값은 {count}입니다</botton>;
+   return<button onClick={addCount}>지금 현재 count state의 값은 {count}입니다</button>;
 }
 
 export default App;
